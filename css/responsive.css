@@ -1,5 +1,9 @@
 @media screen and (min-width: 480px) {
   
+  div {
+    margin: 0 auto;
+  }
+
   /**********************************
   Header
   ***********************************/
@@ -15,12 +19,14 @@
     min-width: 250px;
     width: 40%;
     float: left;
+
   }
   
   #secondary {
     min-width: 250px;
     width: 40%;
     float: left;
+
   }
   
 

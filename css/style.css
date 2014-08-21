@@ -29,6 +29,7 @@ img {
 
 h3{
 	margin: 0 0 1em 0;
+	border-bottom: 1px solid #a8a8a8;
 }
 
 section {
@@ -235,14 +236,21 @@ footer{
   color: #ccc;
 }
 
+.footer_container{
+	max-width: 202px;
+	margin: 0 auto;
+}
+
 .footer_nav {
-	max-width: 100%;
+	max-width: 202px;
 	background-color: #fff; 
 	float: left;
 	color: #f5f5f5;
 	margin: 0 auto;
 	height: 64px;
 	clear: both;
+	list-style: none inside;
+
 }
 
 .footer_nav li {
