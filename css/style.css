@@ -71,13 +71,14 @@ header {
   text-align: center;
   margin: 0;
   height: 50px;
+  top: 15px;
 }
 
 h1 {
-  margin: 15px 0;
   font-size: 1em;
   font-weight: normal;
   line-height: 0.8em;
+  margin: 0 auto;
 }
 
 h2 {
@@ -275,4 +276,32 @@ footer p{
   width: 20px;
   height: 20px;
   margin: 0 5px;
+}
+
+/*******************************************
+FOOTER NAV
+*******************************************/
+
+.sprite { 
+	background: url('img/stock/social.png') no-repeat -0px 0px; 
+	width: 57px; 
+	height: 57px; 
+}
+
+.ir{
+	display: block;
+	text-indent: -99999px;
+}
+
+#correo {
+	background-position: -271px -71px;
+}
+#deviantart {
+	background-position: -6px -71px;
+}
+#linkedin {
+	background-position: -70px -70px;
+}
+#twitter {
+	background-position:
 }
