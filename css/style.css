@@ -69,11 +69,12 @@ header {
 #logo {
   text-align: center;
   margin: 0;
+  height: 50px;
 }
 
 h1 {
   margin: 15px 0;
-  font-size: 1.75em;
+  font-size: 1em;
   font-weight: normal;
   line-height: 0.8em;
 }
@@ -165,6 +166,7 @@ ABOUT / CONTACT
 	max-width: 150px;
 	margin: 0 auto 30px;
 	border-radius: 100%;
+	border: 10px solid #3498db;
 }
 
 #acerca {
@@ -172,6 +174,20 @@ ABOUT / CONTACT
 	max-width: 50%;
 	min-width: 260px;
 	padding: 2.5%;
+}
+
+.photo{
+	background-color: #2980b9;
+	border-right: 2px solid #a8a8a8;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+}
+
+.descripcion{
+	border-right: 2px solid #a8a8a8;
+	border-bottom: 2px solid #a8a8a8;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
 }
 
 .contact-list {
@@ -190,9 +206,19 @@ ABOUT / CONTACT
   margin: 0 0 10px;
 }
 
-#secondary {
-	float: right;
+#primary {
+	width: 40%;
+	float: left;
+	margin: 5%;
 }
+
+#secondary {
+	width: 40%;
+	float: right;
+	margin: 5%;
+}
+
+
 
 #secondary li a{
 	color: #34495e;
