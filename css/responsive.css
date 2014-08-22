@@ -59,8 +59,11 @@
   /**********************************
   HEADER
   ***********************************/
+  nav{
+    margin: 0;
+  }
 
-  nav {
+  .header_nav {
     background: none;
     float: right;
     font-size: 1.125em;
