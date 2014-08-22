@@ -14,19 +14,14 @@
   /**********************************
   Distribución a 2 Columnas
   ***********************************/
-  
   #primary {
-    min-width: 250px;
-    width: 40%;
+    width: 50%;
     float: left;
-
   }
   
   #secondary {
-    min-width: 250px;
     width: 40%;
-    float: left;
-
+    float: right;
   }
   
 
@@ -59,10 +54,6 @@
   /**********************************
   HEADER
   ***********************************/
-  nav{
-    margin: 0;
-  }
-
   .header_nav {
     background: none;
     float: right;
