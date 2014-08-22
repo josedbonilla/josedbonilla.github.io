@@ -81,7 +81,7 @@ h1 {
 }
 
 h2 {
-  font-size: 0.75em;
+  font-size: 0.60em;
   margin: -5px 0 0;
   font-weight: normal;
 }
@@ -108,7 +108,7 @@ NAVIGATION
 }
 
 .header_nav a {
-  font-weight: 800;
+  font-weight: 600;
   padding: 15px 10px;
 }
 
