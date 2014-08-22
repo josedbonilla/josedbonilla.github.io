@@ -155,8 +155,13 @@ GALLERY
 }
 
 /*******************************************
-ABOUT / CONTACT
+BLOG/ ABOUT / CONTACT
 *******************************************/
+
+#blogTit {
+	width: 250px;
+	margin: 0 auto;
+}
 
 #profile {
 	display: block;
