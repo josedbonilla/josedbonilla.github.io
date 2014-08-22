@@ -109,7 +109,7 @@ NAVIGATION
 
 .header_nav a {
   font-weight: 600;
-  padding: 15px 10px;
+  padding: 15px 5px;
 }
 
 /*******************************************
@@ -211,13 +211,11 @@ BLOG/ ABOUT / CONTACT
 #primary {
 	width: 40%;
 	float: left;
-	margin: 5%;
 }
 
 #secondary {
 	width: 40%;
 	float: right;
-	margin: 5%;
 }
 
 
