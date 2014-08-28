@@ -72,6 +72,9 @@ header {
   height: 50px;
 }
 
+#logo:hover {
+	color: #3498db;
+}
 
 h1 {
 	margin: 15px 0;
