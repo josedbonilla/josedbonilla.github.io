@@ -138,6 +138,8 @@ GALLERY
 	padding: 0;
 }
 
+
+
 #gallery li {
 	max-width: 43%;
 	margin: 2.5%;
@@ -153,7 +155,7 @@ GALLERY
 	color: #bdc3c7;
 }
 
-#gallery li a p:hover {
+#gallery li a:hover {
 	color: #000;
 }
 
@@ -338,7 +340,7 @@ FX
 *******************************************/
 
 .glow{
-    color: #a8a8a8;
+    color: #000;
     outline: 0 none;
     text-shadow: none;
 	text-shadow: none;
@@ -355,6 +357,6 @@ FX
 }
 
 .glow:hover{
-    color: #fff;
-    text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #000;
+    color: #000;
+    text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
 }
