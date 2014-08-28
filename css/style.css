@@ -126,6 +126,7 @@ WRAPPER
 	margin: 0 auto;
 	padding: 0.5%;
 	margin-top: 200px;
+	z-index: 8;
 }
 
 /*******************************************
@@ -332,3 +333,28 @@ FOOTER NAV
 	background-position: -200px -4px;
 }
 
+/*******************************************
+FX
+*******************************************/
+
+.glow{
+    color: #a8a8a8;
+    outline: 0 none;
+    text-shadow: none;
+	text-shadow: none;
+	-webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	-o-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+	outline: 0 none;
+    margin: 0 auto;
+    width: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-bottom: white 1px;
+}
+
+.glow:hover{
+    color: #fff;
+    text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #000;
+}
