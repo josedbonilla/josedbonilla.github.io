@@ -80,5 +80,9 @@
   }
 }
 
-
+@media screen and (min-width: 960px) {
+  #logo {
+    margin-left: 0;
+  }
+}
 
